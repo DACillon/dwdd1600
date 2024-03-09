@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Streetboards: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="description" content="Learn about the history of streetboards and the different types">
+        <meta name="author" content="Dillon Cutler">
+        <link rel="stylesheet" href="traveler.css">
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!-- Start of the page header--> 
+        <header>
+            <h1>Streetboards</h1>
+            <p>Know the history of streetboards</p>
+        </header>
+        <!-- Start of the page navigation--> 
+        <nav>
+            <ul>
+                <li><a href="index.html">History</a></li>
+                <li><a href="skateshops.html">Skate Shops</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"> <a href="board.html">Build a Board</a></li>
+            
+            </ul>
+        </nav>
+        <!-- Start of the page content--> 
+        <main>
+        <h1>Build a Board</h1>
+            <form method="get" class="myForm" action="thanks.html">
+            
+            <fieldset>
+        <legend>Customer Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+        <label> Email*<input type="email" name="email" required></label>
+            </fieldset>    
+                
+    
+            <fieldset>
+            <legend>Board Type</legend>
+                <label><input type="radio" name="method" value="Skateboard">SkateBoard (31")</label>
+                <label><input type="radio" name="method" value="Penny">Penny Board (22")</label>
+                <label><input type="radio" name="method" value="Cruiser">Cruiser Board(29")</label>
+                 <label><input type="radio" name="method" value="Longboard">Longboard(42")</label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Trucks and Wheels</legend>
+              <label><input type="checkbox" name="Silver" value="chosen"> Silver Trucks</label>
+                <label><input type="checkbox" name="black" value="chosen"> Black Trucks</label>
+                <label><input type="checkbox" name="white" value="chosen"> White Trucks</label>
+                <label><input type="checkbox" name="red" value="chosen"> Red Trucks</label>
+                </fieldset>
+                
+                <fieldset>
+                <label>Grip Tape
+                <select name="time">
+                <option value="none">Please Select</option>
+                 <option value="you">You Pick</option>
+                <option value="we">We Pick</option>
+                <option value="random">Random Pick</option> 
+                <option value="no">No Grip Tape</option>   
+                </select>
+                </label>
+            </fieldset>
+            
+            
+            <label>Comments
+            <textarea name="comments">Please add any special instruction</textarea>
+            </label>
+            
+            <input type="submit" value="Send Skateboard Request">
+            </form>
+        </main>
+        <!-- Start of the page footer--> 
+        <footer>
+        <p> &copy; Dillon Cutler &bull; <a href="mailto:dillon.cu@gmail.com"> Email Us</a></p>
+        </footer>
+    
+    
+    </body>
+</html>
